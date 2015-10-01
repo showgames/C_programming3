@@ -19,6 +19,5 @@ void make_move(GAME_STATE* game);/*手によって状態を変更する関数*/
 void disp_board(GAME_STATE* game); /*ディスプレイに盤面の状態を出力する関数*/
 int check_finish_game(GAME_STATE* game); /*ゲームの終局を判定する関数*/
 void change_teban(GAME_STATE* game); /*手番を交代する*/
-
 /*AIの関数*/
 void think_move(GAME_STATE* game); /*コンピュータが手を選ぶ関数*/
